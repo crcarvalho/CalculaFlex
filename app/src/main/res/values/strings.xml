@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">CalculaFlex</string>
+    <string name="posto_de_gasolina">Posto de Gasolina</string>
+    <string name="preco_gasolina">Preço Gasolina</string>
+</resources>
