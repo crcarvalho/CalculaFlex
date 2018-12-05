@@ -23,7 +23,68 @@
         style="@style/container_row">
         <TextView
             android:text="@string/preco_gasolina"
-            style="@style/header_title" />
-
+            style="@style/header_sutitle" />
+        <TextView
+            android:text="@string/preco_etanol"
+            style="@style/header_sutitle" />
     </LinearLayout>
+
+    <LinearLayout
+        style="@style/container_row">
+        <EditText
+            style="@style/input_number_decimal"
+            android:hint="Ex.: 3.57"/>
+
+        <EditText
+            style="@style/input_number_decimal"
+            android:hint="Ex.: 2.57"/>
+    </LinearLayout>
+
+
+
+
+
+
+    <view
+        style="@style/divider" />
+
+    <TextView
+        android:drawableLeft="@drawable/car_icon"
+        android:text="@string/consumo_medio"
+        style="@style/header_title"/>
+
+    <view
+        style="@style/divider" />
+
+    <LinearLayout
+        style="@style/container_row">
+        <TextView
+            android:text="@string/km_por_litro_gasolina"
+            style="@style/header_sutitle" />
+        <TextView
+            android:text="@string/km_por_litro_etanol"
+            style="@style/header_sutitle" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/container_row">
+        <EditText
+            style="@style/input_number_decimal"
+            android:hint="Ex.: 10.5"/>
+
+        <EditText
+            style="@style/input_number_decimal"
+            android:hint="Ex.: 10.5"/>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/botao_calcular"/>
+
+
+
+
+
+
 </LinearLayout>

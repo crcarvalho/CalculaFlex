@@ -2,4 +2,9 @@
     <string name="app_name">CalculaFlex</string>
     <string name="posto_de_gasolina">Posto de Gasolina</string>
     <string name="preco_gasolina">Preço Gasolina</string>
+    <string name="preco_etanol">Preço Etanol</string>
+    <string name="consumo_medio">Consumo Médio</string>
+    <string name="km_por_litro_etanol">Km/L Etanol</string>
+    <string name="km_por_litro_gasolina">Km/L Gasolina</string>
+    <string name="botao_calcular">CALCULAR</string>
 </resources>
