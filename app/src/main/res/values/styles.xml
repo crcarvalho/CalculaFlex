@@ -8,6 +8,53 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="container_master">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="header_title" parent="margin_default_row">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="header_subtitle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">0.5</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="input_number_decimal">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">0.5</item>
+        <item name="android:inputType">numberDecimal</item>
+    </style>
+
+    <style name="margin_default_row">
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:layout_marginRight">16dp</item>
+    </style>
+
+
+    <style name="divider" parent="margin_default_row">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">#CCC</item>
+        <item name="android:layout_marginTop">12dp</item>
+        <item name="android:layout_marginBottom">12dp</item>
+    </style>
+
+    <style name="container_row" parent="margin_default_row">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
     <style name="banner">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">180dp</item>
@@ -15,45 +62,28 @@
         <item name="android:src">@drawable/banner</item>
     </style>
 
-    <style name="header_title" parent="marginDefault">
-        <item name="android:textStyle">bold</item>
+    <style name="label_spent_footer">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:textSize">16dp</item>
+
+        <item name="android:layout_weight">0.5</item>
+        <item name="android:gravity">center</item>
     </style>
 
-    <style name="marginDefault">
-        <item name="android:layout_marginLeft">16dp</item>
-        <item name="android:layout_marginRight">16dp</item>
-    </style>
-
-    <style name="divider" parent="marginDefault">
-        <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">1dp</item>
-        <item name="android:background">@color/colorDivider</item>
-        <item name="android:layout_marginTop">12dp</item>
-        <item name="android:layout_marginBottom">12dp</item>
-    </style>
-
-    <style name="container_row" parent="marginDefault">
+    <style name="value_spent_footer">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:orientation">horizontal</item>
+        <item name="android:textSize">48sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_weight">0.5</item>
     </style>
 
-    <style name="header_sutitle">
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_weight">1.0</item>
-        <item name="android:textStyle">bold</item>
+    <!-- FullScreen theme. -->
+    <style name="FullScreen" parent="AppTheme">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
     </style>
-
-    <style name="input_number_decimal" parent="header_sutitle">
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_width">match_parent</item>
-        <item name="android:inputType">numberDecimal</item>
-        <item name="android:layout_weight">1.0</item>
-    </style>
-
 
 </resources>
+
